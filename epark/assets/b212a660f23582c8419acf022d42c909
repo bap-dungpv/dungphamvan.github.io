@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "会員アプリ",
+    "slug": "epark",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "jp.bap.epark",
+      "config": {
+        "usesNonExemptEncryption": false,
+        "googleMapsApiKey": "AIzaSyCrzgKHg99nW9hVF7I-y4e3s39rkiici_g"
+      },
+      "buildNumber": "8"
+    },
+    "android": {
+      "package": "jp.bap.epark",
+      "versionCode": 1,
+      "googleServicesFile": "./google-services.json",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyCrzgKHg99nW9hVF7I-y4e3s39rkiici_g"
+        }
+      },
+      "useNextNotificationsApi": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "apiUrl": "https://itaku-dev.peakmanager.com"
+    },
+    "notification": {
+      "icon": "./assets/icon.png"
+    }
+  }
+}
