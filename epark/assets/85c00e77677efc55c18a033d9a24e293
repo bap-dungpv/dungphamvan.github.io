@@ -5,6 +5,7 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -21,7 +22,10 @@
         "usesNonExemptEncryption": false,
         "googleMapsApiKey": "AIzaSyCrzgKHg99nW9hVF7I-y4e3s39rkiici_g"
       },
-      "buildNumber": "8"
+      "infoPlist": {
+        "LSApplicationQueriesSchemes": ["googlechromes", "comgooglemaps"]
+      },
+      "buildNumber": "9"
     },
     "android": {
       "package": "jp.bap.epark",
