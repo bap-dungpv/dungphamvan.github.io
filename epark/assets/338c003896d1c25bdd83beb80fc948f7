@@ -25,7 +25,7 @@
       "infoPlist": {
         "LSApplicationQueriesSchemes": ["googlechromes", "comgooglemaps"]
       },
-      "buildNumber": "9"
+      "buildNumber": "10"
     },
     "android": {
       "package": "jp.bap.epark",
