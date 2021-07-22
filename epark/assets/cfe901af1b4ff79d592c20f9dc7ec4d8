@@ -43,7 +43,7 @@
       "favicon": "./assets/favicon.png"
     },
     "extra": {
-      "apiUrl": "https://itaku-dev-aone.peakmanager.com"
+      "apiUrl": "https://itaku-dev.peakmanager.com/"
     },
     "notification": {
       "icon": "./assets/icon.png"
