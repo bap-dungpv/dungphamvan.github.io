@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "会員アプリ-STG",
+    "name": "お店アプリ",
     "slug": "epark-stg",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -31,6 +31,7 @@
       "package": "jp.bap.epark.stg",
       "versionCode": 1,
       "googleServicesFile": "./google-services_STG.json",
+      "softwareKeyboardLayoutMode": "pan",
       "config": {
         "googleMaps": {
           "apiKey": "AIzaSyCrzgKHg99nW9hVF7I-y4e3s39rkiici_g"
@@ -42,7 +43,7 @@
       "favicon": "./assets/favicon.png"
     },
     "extra": {
-      "apiUrl": "https://itaku-dev.peakmanager.com"
+      "apiUrl": "https://dev.peakmanager.com"
     },
     "notification": {
       "icon": "./assets/icon.png"
