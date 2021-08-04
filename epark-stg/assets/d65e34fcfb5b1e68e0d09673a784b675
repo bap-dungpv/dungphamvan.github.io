@@ -39,11 +39,10 @@
       },
       "useNextNotificationsApi": true
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    },
     "extra": {
-      "apiUrl": "https://dev.peakmanager.com"
+      "apiUrl": "https://dev.peakmanager.com",
+      "companyId": 10306,
+      "themeColor": "#4CAF50"
     },
     "notification": {
       "icon": "./assets/icon.png"
